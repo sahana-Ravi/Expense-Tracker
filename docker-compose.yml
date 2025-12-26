@@ -1,0 +1,9 @@
+version: latest
+services:
+  expence-tracker:
+    build:
+      context: .
+      dockerfile: DockerFile
+    container_name: expence-tracker-container
+    tty: true
+    stdin_open: true
